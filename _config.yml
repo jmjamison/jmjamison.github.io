@@ -32,9 +32,11 @@ github_username:  jmjamison
 destination: ./docs
 
 # Build settings
-theme: minima
+# theme: minima
+theme: jekyll-theme-rtd
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
